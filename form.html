@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link style css -->
+    <link rel="stylesheet" href="./css/form.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo-text">event registration form</h1>
+        <form>
+          <label class="name">
+            Name
+            <label class="label-inp">
+              <input class="input" type="text" required />
+              <p>First name</p>
+            </label>
+            <label class="label-inp">
+              <input class="input" type="text" required />
+              <p>Last name</p>
+            </label>
+          </label>
+          <label class="company name"
+            >Company<input class="input width" type="text" required
+          /></label>
+          <label class="email name">
+            Email
+            <input
+              class="input width"
+              type="email"
+              placeholder="Enter your email"
+              required
+            />
+          </label>
+          <label class="name">
+            <p>Phone</p>
+            <label class="label-inp code">
+              <input class="input" type="number" required />
+              <p>Area code</p>
+            </label>
+            <label required class="label-inp">
+              <input class="input" type="number" required />
+              <p>Phone Number</p>
+            </label>
+          </label>
+          <label class="company name">
+            Subject
+            <select class="input width" name="" id="" required>
+              <option value="">Choose option</option>
+              <option value="">Kok</option>
+              <option value="">Yashil</option>
+              <option value="">Zangori</option>
+              <option value="">Qora</option>
+            </select>
+          </label>
+          <label class="choose">
+            <p class="choose-text">Are you an exciting customer?</p>
+            <label class="choose-inp" required>
+              <label class="ch-inp">
+                <input type="radio" name="choose" required />Yes
+              </label>
+              <label class="ch-inp">
+                <input type="radio" name="choose" required /> No</label
+              >
+            </label>
+          </label>
+          <label class="btn">
+            <input class="button-inp" type="submit" value="REGISTER" required />
+          </label>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>

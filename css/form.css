@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, blue, purple );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header {
+  max-width: 70%;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+
+}
+
+.container {
+  max-width: 70%;
+  width: 100%;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+}
+
+form {
+  padding: 0 40px;
+}
+
+.logo-text {
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* p {
+  width: 20%;
+} */
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.name label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 20px;
+  border: none;
+  background-color: rgb(210, 203, 203);
+  border-radius: 5px;
+}
+
+.company,
+.email {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.label-inp {
+  width: 33%;
+}
+
+.label-inp:nth-child(3) {
+  width: 46%;
+}
+
+.code {
+  width: 20%;
+}
+
+.width {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.choose {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 50px;
+  margin: 20px 0 0;
+}
+
+.choose p {
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+.choose-text {
+  width: 300px;
+}
+
+.choose-inp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  border-radius: 7px;
+}
+
+.btn {
+  display: flex;
+  justify-content: start;
+  padding: 40px;
+}
+
+.button-inp {
+  padding: 10px 40px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
